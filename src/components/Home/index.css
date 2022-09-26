@@ -1,0 +1,455 @@
+/* .home-container {
+  background-color: #131313;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-bottom: 221px;
+} */
+
+.root-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.movie-title {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 62px;
+  color: #fff;
+}
+.movie-description {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 350px;
+  color: #fff;
+}
+
+.play-btn {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 8px;
+  width: 74px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.top-text-container {
+  align-self: flex-start;
+  margin-left: 162px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.bottom-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: 20px;
+  color: #fff;
+  align-self: flex-start;
+  padding-left: 162px;
+}
+
+@media screen and (max-width: 578px) {
+  .section-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 20px;
+    color: #fff;
+    align-self: flex-start;
+    padding-left: 10px;
+  }
+}
+
+.slick-container {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.banner-left-part {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.banner-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.banner-home-container {
+  background-color: #ffffff;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-container {
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .banner-text {
+    font-size: 20px;
+  }
+}
+.banner-right-part {
+  display: flex;
+  justify-content: flex-end;
+}
+.banner-close-btn {
+  border: none;
+  background: none;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-home-container {
+    margin-bottom: 0px;
+    display: none;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 80vh; */
+  height: 100%;
+}
+.root-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.home-sizes-container {
+  height: 70vh;
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .sm-devices {
+    display: none;
+  }
+}
+.lg-devices {
+  visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+  .lg-devices {
+    visibility: visible;
+  }
+}
+
+.home-poster-title {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.06px;
+  color: #ffffff;
+}
+
+.home-poster-overview {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  margin-left: 150px;
+}
+.home-poster-play-btn {
+  /* padding: 10px 20px; */
+  background: #ffffff;
+  border-radius: 4px;
+  width: 76px;
+  height: 32px;
+
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .home-poster-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 62px;
+  }
+  .home-poster-overview {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .home-poster-play-btn {
+    width: 74px;
+    height: 40px;
+  }
+}
+.devices-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 605px;
+}
+@media screen and (max-height: 768px) {
+  .devices-container {
+    min-height: 300px;
+    height: 380px;
+    max-height: 405px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .home-header-content {
+    padding: 30px;
+  }
+}
+
+.movie-details-name {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.movies-details-play-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 0px;
+  color: #171f46;
+  font-weight: 600;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.movie-details-description {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 450px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .movie-details-description {
+    width: 90%;
+    font-size: 12px;
+    margin-top: 3px;
+    line-height: 16px;
+  }
+  .movie-details-name {
+    font-size: 18px;
+    margin-bottom: 0px;
+    line-height: 50px;
+  }
+  .movies-details-play-button {
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sm-devices {
+    display: none;
+  }
+}
+.lg-devices {
+  visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+  .lg-devices {
+    visibility: visible;
+  }
+}
+
+.home-poster-title {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.06px;
+  color: #ffffff;
+}
+
+.home-poster-overview {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  margin-left: 150px;
+}
+.home-poster-play-btn {
+  /* padding: 10px 20px; */
+  background: #ffffff;
+  border-radius: 4px;
+  width: 76px;
+  height: 32px;
+
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .home-poster-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 62px;
+  }
+  .home-poster-overview {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .home-poster-play-btn {
+    width: 74px;
+    height: 40px;
+  }
+}
+.devices-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 605px;
+}
+@media screen and (max-height: 768px) {
+  .devices-container {
+    min-height: 300px;
+    height: 380px;
+    max-height: 405px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .home-header-content {
+    padding: 30px;
+  }
+}
+
+.movie-details-name {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.movies-details-play-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 0px;
+  color: #171f46;
+  font-weight: 600;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.movie-details-description {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 450px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .movie-details-description {
+    width: 90%;
+    font-size: 12px;
+    margin-top: 3px;
+    line-height: 16px;
+  }
+  .movie-details-name {
+    font-size: 18px;
+    margin-bottom: 0px;
+    line-height: 50px;
+  }
+  .movies-details-play-button {
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+}
+
+.warning {
+  height: 38px;
+  width: 44px;
+}
+@media screen and (max-width: 768px) {
+  .heading-container {
+    margin-left: 0;
+  }
+}

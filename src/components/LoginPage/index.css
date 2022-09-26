@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+
+.login-container {
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.8) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('https://res.cloudinary.com/dug30iszj/image/upload/v1663224949/MovieApp/Login%20Page/netfilx_1_q2pv63.png');
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .login-container {
+    background: #131313;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 32px;
+  }
+}
+
+.logo {
+  width: 180px;
+  height: 52px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 100px;
+    height: 27px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0c0b10;
+  margin-top: 35px;
+  opacity: 0.8;
+  border-radius: 8px;
+  width: 456px;
+  height: 440px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    display: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #131313;
+    margin-top: 35px;
+    opacity: 0.8;
+    border-radius: 8px;
+    width: 240px;
+    height: 440px;
+  }
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    display: hidden;
+  }
+}
+.form-container {
+  width: 360px;
+}
+
+@media screen and (max-width: 576px) {
+  .form-container {
+    width: 240px;
+  }
+}
+
+.login {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+  }
+}
+
+.label-text {
+  font-family: 'Familjen Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 576px) {
+  .label-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.input-field {
+  background: #333333;
+  border-radius: 2px;
+  outline: none;
+  height: 40px;
+  width: 360px;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .input-field {
+    background: #333333;
+    border-radius: 2px;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 296px;
+  }
+}
+
+.login-btn {
+  background: #e50914;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  color: #f8fafc;
+  width: 360px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Familjen Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  border: none;
+}
+
+.sign-btn {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .login-btn {
+    display: none;
+  }
+
+  .sign-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #e50914;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    color: #f8fafc;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+  }
+}
+
+.error {
+  font-family: 'Familjen Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc2626;
+}

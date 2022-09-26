@@ -1,0 +1,109 @@
+.video-details-view-container {
+  /* min-height: 100vh; */
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+  overflow-y: auto;
+  background-color: #0f0f0f;
+}
+@media screen and (min-width: 768px) {
+  /* .video-details-view-container { */
+  /* margin-left: 250px; */
+  /* margin-bottom: 0px; */
+  /* } */
+}
+.movie-details-display-container {
+  width: 1440px;
+  height: 501px;
+  border: 1px solid red;
+}
+.movie-details-display-parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+}
+.additional-movie-info-container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.movie-info-genre-heading,
+.movie-info-rating-count-heading,
+.movie-info-budget-heading,
+.movie-info-rating-avg-heading,
+.movie-info-release-date {
+  color: #94a3b8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+.movie-info-each-genre,
+.movie-info-rating-count,
+.movie-info-budget,
+.movie-info-rating,
+.movie-info-date,
+.movie-info-date-end,
+.movie-info-month-name,
+.movie-info-year {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.each-genre-ul-container {
+  padding: 10px;
+}
+
+.movie-info-date-end,
+.movie-info-month-name {
+  margin-right: 5px;
+}
+.similar-ul-container {
+  background-color: #131313;
+}
+.movie-info-footer-container {
+  background-color: #131313;
+  /* margin-top: -30px; */
+}
+.dummy {
+  background-color: #0f0f0f;
+}
+.more-like-this {
+  background: none;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 30px;
+}
+/* @media screen and (min-width: 576px) {
+  .additional-movie-info-container {
+    display: none;
+  }
+  .similar-movies-container {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 568px) {
+  .additional-info-sm-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}

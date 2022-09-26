@@ -1,0 +1,154 @@
+.sample-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 605px;
+}
+
+.player-video-title {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #ffffff;
+}
+.play-video-status-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-video-status {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #64748b;
+}
+.play-video-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.play-social-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  background: none;
+}
+.social-btn {
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: #2563eb;
+}
+.btn-txt {
+  margin-left: 5px;
+}
+@media screen and (max-width: 576px) {
+  .btn-txt {
+    display: none;
+  }
+}
+.hr-line {
+  border: 1px solid #909090;
+}
+
+.channel-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.channel-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.channel-info {
+  display: flex;
+  flex-direction: column;
+}
+.channel-name {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #909090;
+  margin: 0px;
+}
+.channel-subscribers {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #64748b;
+}
+.channel-description {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #64748b;
+}
+
+/* Movie Detail Styling */
+.movie-info-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+
+  color: #ffffff;
+}
+
+.movie-info-hrs-min {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-right: 12px;
+}
+.movie-info-a-ua {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-right: 12px;
+  padding: 2px 12px;
+}
+.movie-info-overview {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.movie-info-year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.movie-info-content-container {
+  height: 501px;
+  width: 751px;
+  padding: 25px;
+}
+.runtime-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-background-info-image-sm-devices {
+    margin: 20px;
+    width: 700px;
+    border: 1px solid red;
+  }
+}
